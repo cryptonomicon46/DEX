@@ -1,0 +1,294 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/ERC20.sol": {
+      "lastModificationDate": 1657303060033,
+      "contentHash": "f0bb6fd3abcf6e9fc7f5266f1bc97573",
+      "sourceName": "contracts/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./MySwapERC20.sol",
+        "./NoDelegateCall.sol",
+        "./Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/MySwapERC20.sol": {
+      "lastModificationDate": 1657303060025,
+      "contentHash": "b3d0bc6c3f0e6fb4c995ce84cbd6d865",
+      "sourceName": "contracts/MySwapERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IMySwapERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "MySwapERC20"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/NoDelegateCall.sol": {
+      "lastModificationDate": 1657303060421,
+      "contentHash": "975351cfbc03486faea39d0a2ccc4047",
+      "sourceName": "contracts/NoDelegateCall.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "NoDelegateCall"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/Ownable.sol": {
+      "lastModificationDate": 1657303060040,
+      "contentHash": "b16e361ddb294639fc2f020f1e38e97a",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/interfaces/IMySwapERC20.sol": {
+      "lastModificationDate": 1657303060439,
+      "contentHash": "5c3c55f80761b8ef512fa2dad74f4366",
+      "sourceName": "contracts/interfaces/IMySwapERC20.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "IMySwapERC20"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1657303060063,
+      "contentHash": "bfbae2f9a2e80d4154e3987af18d0109",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/Greeter.sol": {
+      "lastModificationDate": 1657303060323,
+      "contentHash": "5580f1f98e060676bb415a701673e619",
+      "sourceName": "contracts/Greeter.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "Greeter"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1657303266915,
+      "contentHash": "cc4777addd464ea56fa35b1c45df0591",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    }
+  }
+}

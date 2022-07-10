@@ -218,43 +218,6 @@
         "SafeMath"
       ]
     },
-    "/Users/snallani/Documents/HardHat/MyDEX/contracts/Greeter.sol": {
-      "lastModificationDate": 1657303060323,
-      "contentHash": "5580f1f98e060676bb415a701673e619",
-      "sourceName": "contracts/Greeter.sol",
-      "solcConfig": {
-        "version": "0.8.10",
-        "settings": {
-          "optimizer": {
-            "enabled": false,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "hardhat/console.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.10"
-      ],
-      "artifacts": [
-        "Greeter"
-      ]
-    },
     "/Users/snallani/Documents/HardHat/MyDEX/node_modules/hardhat/console.sol": {
       "lastModificationDate": 1657303266915,
       "contentHash": "cc4777addd464ea56fa35b1c45df0591",
@@ -288,6 +251,116 @@
       ],
       "artifacts": [
         "console"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/UniswapV2Fatory.sol": {
+      "lastModificationDate": 1657416193934,
+      "contentHash": "ef541cb269f12b5f595b492b6a9a3829",
+      "sourceName": "contracts/UniswapV2Fatory.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./NoDelegateCall.sol",
+        "./Ownable.sol",
+        "./interfaces/IUniswapV2Factory.sol",
+        "./UniswapV2Pair.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "UniswapV2Factory"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1657415951701,
+      "contentHash": "22a16363a3859e5d556682603c141b3a",
+      "sourceName": "contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/snallani/Documents/HardHat/MyDEX/contracts/UniswapV2Pair.sol": {
+      "lastModificationDate": 1657415983081,
+      "contentHash": "ba2adc71cf535082824e77f3372b359e",
+      "sourceName": "contracts/UniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.10",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.10"
+      ],
+      "artifacts": [
+        "UniswapV2Pair"
       ]
     }
   }
